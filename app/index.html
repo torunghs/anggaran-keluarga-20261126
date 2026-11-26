@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DompetKeluarga — Anggaran Rumah Tangga Keluarga Indonesia</title>
+<meta name="description" content="DompetKeluarga: kelola anggaran rumah tangga — dashboard, anggaran per kategori, catatan transaksi, laporan bulanan, kalkulator 50-30-20 dan dana darurat, plus tips hemat. Semua tersimpan di perangkatmu.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">D</span>
+      <span class="brand-text"><strong>DompetKeluarga</strong><small>Anggaran rumah tangga</small></span>
+    </a>
+    <nav aria-label="Navigasi utama">
+      <a data-route="/" href="#/">Beranda</a>
+      <a data-route="/anggaran" href="#/anggaran">Anggaran</a>
+      <a data-route="/transaksi" href="#/transaksi">Transaksi</a>
+      <a data-route="/laporan" href="#/laporan">Laporan</a>
+      <a data-route="/kalkulator" href="#/kalkulator">Kalkulator</a>
+      <a data-route="/tips" href="#/tips">Tips &amp; Sumber</a>
+    </nav>
+  </div>
+</header>
+<main id="view" class="wrap"></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>DompetKeluarga</strong> — situs anggaran rumah tangga mandiri. Semua angka adalah data contoh keluarga fiktif di Jakarta (lihat <a href="#/tips">Tips &amp; Sumber</a>); transaksimu sendiri tersimpan hanya di perangkatmu (localStorage) dan tidak pernah dikirim ke mana pun.</p>
+    <p>Berjalan sepenuhnya dari berkas statis, tanpa permintaan jaringan. <a href="#/kalkulator">Hitung anggaran 50-30-20 →</a></p>
+  </div>
+</footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
